@@ -14,6 +14,6 @@ pub fn gamma() {
 }
 
 // Doesn't build
-// pub fn gamma() {
-//     demo_pac::gamma()
+// pub fn delta() {
+//     demo_pac::delta()
 // }
