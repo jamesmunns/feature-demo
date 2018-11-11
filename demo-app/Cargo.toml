@@ -1,0 +1,12 @@
+[package]
+name = "demo-app"
+version = "0.1.0"
+authors = ["James Munns <james.munns@ferrous-systems.com>"]
+edition = "2018"
+
+[dependencies.demo-pac]
+path = "../demo-pac"
+features = ["delta"]
+
+[dependencies.demo-bsp]
+path = "../demo-bsp"

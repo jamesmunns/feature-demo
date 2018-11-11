@@ -1,0 +1,27 @@
+[[package]]
+name = "demo-app"
+version = "0.1.0"
+dependencies = [
+ "demo-bsp 0.1.0",
+ "demo-pac 0.1.0",
+]
+
+[[package]]
+name = "demo-bsp"
+version = "0.1.0"
+dependencies = [
+ "demo-hal 0.1.0",
+ "demo-pac 0.1.0",
+]
+
+[[package]]
+name = "demo-hal"
+version = "0.1.0"
+dependencies = [
+ "demo-pac 0.1.0",
+]
+
+[[package]]
+name = "demo-pac"
+version = "0.1.0"
+
